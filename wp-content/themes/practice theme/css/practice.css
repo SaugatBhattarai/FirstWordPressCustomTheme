@@ -1,9 +1,43 @@
-html,body{
-    margin:0;
-    color: #333;
-    background:#eee;
-    font-family: sans-serif;
+.container-fluid-first{
+    position:relative;
 }
-body{
-    padding:20px;
+.navbar-header{
+    position:absolute;
+    left:40%;
+}
+.col-xs-12{
+    padding-left:0px !important;
+    padding-right:0px !important;
+}
+.col-head-image img{
+    margin-top:-20px;
+    width:100%;
+}
+.col-head-image{
+    z-index: -1;
+}
+.col-head-image{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+}
+.art-text-abs{
+    position: absolute;
+    bottom:50%;
+    left:35%;
+    font-size:40px;
+    font-weight: bold;
+    color:#fff;
+}
+.btn-in-image{
+    position: absolute;
+    bottom:38%;
+    left:44%;
+    margin:0px auto;
+    background-color: #0DAB00;
+    border:transparent;
+    padding:10px 40px;
+    border-radius: 20px;
+
 }

@@ -27,5 +27,43 @@ function practice_theme_setup() {
     register_nav_menu('primary','Primary Header Navigation');
     register_nav_menu('secondary','Footer Navigation');
 }
-add_action('init','practice_theme_setup')
+add_action('init','practice_theme_setup');
+
+/*
+ * ===================================================================
+ *  THEME SUPPORT FUNCTIONS
+ * ===================================================================
+ *
+ */
+$args = array(
+    'default-color'          => 'FFFFFF',
+    'default-image'          => '',
+    'default-repeat'         => '',
+    'default-position-x'     => '',
+    'default-attachment'     => '',
+    'wp-head-callback'       => '_custom_background_cb',
+    'admin-head-callback'    => '',
+    'admin-preview-callback' => '',
+    'default-image' => get_template_directory_uri(). '/images/background.jpg'
+);
+add_theme_support( 'custom-background', $args );
+
+$defaults = array(
+    'default-image'          => get_template_directory_uri() . '/images/header.jpg',
+    'width'                  => '',
+    'height'                 => '',
+    'flex-height'            => true,
+    'flex-width'             => true,
+    'uploads'                => true,
+    'random-default'         => true,
+    'header-text'            => true,
+    'default-text-color'     => '',
+    'wp-head-callback'       => '',
+    'admin-head-callback'    => '',
+    'admin-preview-callback' => ''
+);
+add_theme_support( 'custom-header', $defaults );
+add_theme_support( 'post-thumbnails' );
+add_theme_support( 'post-formats', array( 'aside', 'image','video' ) );
+
 ?>

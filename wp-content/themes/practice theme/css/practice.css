@@ -1,14 +1,18 @@
 .container-fluid-first{
     position:relative;
 }
+.container-fluid{
+    padding:0 !important;
+    margin: 0 !important;
+}
 .navbar-header{
     position:absolute;
     left:40%;
 }
-.col-xs-12{
-    padding-left:0px !important;
-    padding-right:0px !important;
-}
+/*.col-xs-12{*/
+    /*padding-left:0px !important;*/
+    /*padding-right:0px !important;*/
+/*}*/
 .col-head-image img{
     margin-top:-20px;
     width:100%;
@@ -34,10 +38,67 @@
     position: absolute;
     bottom:38%;
     left:44%;
-    margin:0px auto;
     background-color: #0DAB00;
     border:transparent;
     padding:10px 40px;
     border-radius: 20px;
-
+}
+.btn-in-image-scroll-down{
+    position:absolute;
+    bottom: 5%;
+    left:46%;
+    background-color: #fff4ec;
+    opacity: 0.5;
+    border:transparent;
+    color:#000;
+    font-weight: bold;
+    border-radius:20px;
+}
+.what-we-do{
+    height:500px;
+    background-color:#f0f0ee;
+}
+.what-we-do-main{
+    text-align: center;
+    font-weight: 400;
+    font-size:30px;
+    padding-bottom:5px;
+}
+.what-we-do-detail{
+    text-align: center;
+    font-weight: 300;
+    font-size:14px;
+}
+.what-we-do-top{
+    margin-top:25px;
+}
+.image-detail-what{
+   margin-top:150px;
+   margin-left:15px !important;
+}
+.src-image{
+    width:200px;
+    height:120px;
+    border-radius:30px;
+}
+.div-image-title{
+    font-weight: 600;
+    margin:20px 0;
+    font-size:20px;
+}
+.btn-sm{
+    margin-top:15px;
+    padding:8px 20px;
+    border-radius: 18px;
+}
+.col-img-justify{
+    padding:0 100px;
+    text-align: center;
+}
+.testimonials{
+    height: 400px;
+}
+.carousel-display-size{
+    width:100%;
+    height:100%;
 }

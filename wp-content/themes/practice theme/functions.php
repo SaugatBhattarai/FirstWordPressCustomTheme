@@ -49,7 +49,7 @@ $args = array(
 add_theme_support( 'custom-background', $args );
 
 $defaults = array(
-    'default-image'          => get_template_directory_uri() . '/images/header.jpg',
+    'default-image'          => get_template_directory_uri() . '/images/imageheader.jpg',
     'width'                  => '',
     'height'                 => '',
     'flex-height'            => true,

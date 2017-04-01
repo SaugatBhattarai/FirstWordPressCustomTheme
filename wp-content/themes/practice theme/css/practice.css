@@ -77,8 +77,8 @@
    margin-left:15px !important;
 }
 .src-image{
-    width:200px;
-    height:120px;
+    width:160px;
+    height:90px;
     border-radius:30px;
 }
 .div-image-title{
@@ -96,9 +96,79 @@
     text-align: center;
 }
 .testimonials{
-    height: 400px;
+    height: 460px;
 }
 .carousel-display-size{
-    width:100%;
-    height:100%;
+    /*width:100%;*/
+    /*height:100%;*/
 }
+.carousel-image-inside{
+    /*text-align: center;*/
+}
+.our-happy-client{
+    margin-top:-10px;
+    height: 440px;
+}
+.our-happy-client-main{
+    font-weight: 400;
+    font-size:30px;
+}
+.our-happy-client-sub{
+    font-size:14px;
+    padding-bottom:2px;
+}
+.our-happy-client{
+    text-align: center;
+    background-color:#f0f0ee;
+}
+.see-all-btn{
+    margin-top:40px;
+    background-color: #fff4ec;
+    padding:8px 30px;
+    border:transparent;
+    color:#000;
+    border-radius:15px;
+}
+.our-happy-client-top{
+    margin-bottom: 40px;
+}
+.our-happy-client-row{
+    margin-bottom:10px;
+}
+.our-happy-client-col{
+    margin-bottom:15px;
+}
+.person-profile{
+    float:left;
+    width: 125px;
+    height: 125px;
+    margin:0px 25px;
+}
+.person-super{
+    height:250px;
+}
+.meet-the-team{
+    height: 440px;
+    background-color: #0AFF87;
+}
+.section-top{
+    padding-top:20px;
+    text-align: center;
+}
+.section-head{
+    font-size:30px;
+    font-weight: 400;
+    padding-bottom:5px;
+}
+.section-subhead{
+    font-size:14px;
+}
+.profile-container{
+    padding-top:40px;
+}
+
+/*.person-line{*/
+    /*height:100px;*/
+    /*background: #000;*/
+    /*width:1px;*/
+/*}*/

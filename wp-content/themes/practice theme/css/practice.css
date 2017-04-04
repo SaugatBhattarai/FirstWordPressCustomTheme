@@ -187,6 +187,7 @@
     color:#fff;
 }
 .social-icon-coll{
+    margin:0px auto;
     margin-top:10px;
     width:120px;
     height:40px;
@@ -208,7 +209,6 @@
 .btn-meet{
     text-align: center;
     line-height: 80px;
-    /*border-radius:40px;*/
 }
 .meet-team-footer{
     height:120px;
@@ -229,7 +229,7 @@
 
 .our-latest-work{
     background-color:#9FFFA0;
-    height:450px;
+    height: 700px;
 }
 .latest-work-header-col{
     text-align: center;
@@ -254,4 +254,16 @@
 }
 .margin-top-tabs{
     margin-top:20px;
+}
+#print{
+    padding:20px;
+}
+#photography{
+    padding:20px;
+}
+#design{
+    padding:20px;
+}
+.view-more-button{
+    text-align: center;
 }

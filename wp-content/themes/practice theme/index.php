@@ -13,6 +13,8 @@
         </div>
     </div>
 </div>
+
+<!--What we do section-->
 <div class="container-fluid">
     <div class="row what-we-do">
         <div class="col-xs-12">
@@ -71,6 +73,7 @@
         </div>
     </div>
 </div>
+
 <!--our latest work section-->
 <section class="our-latest-work">
     <div class="container-fluid">
@@ -99,23 +102,68 @@
 
                     <div class="tab-content">
                         <div id="photography" class="tab-pane fade in active">
-                            <h3>Photograhpy</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="row">
+                                <?php
+                                $args = array(
+                                    'type' => 'post',
+                                    'category_name'=>'photography'
+                                );
+                                $lastBlog = new WP_Query($args);
+                                if($lastBlog->have_posts()):
+                                    while($lastBlog->have_posts()):$lastBlog->the_post(); ?>
+                                        <div class="col-xs-12 col-md-3">
+                                            <?php get_template_part('content','featured');?>
+                                        </div>
+                                    <?php endwhile;
+                                endif;
+                                wp_reset_postdata();
+                                ?>
+                            </div>
                         </div>
                         <div id="design" class="tab-pane fade">
-                            <h3>Design</h3>
-                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <div class="row">
+                                <?php
+                                $args = array(
+                                    'type' => 'post',
+                                    'category_name'=>'design'
+                                );
+                                $lastBlog = new WP_Query($args);
+                                if($lastBlog->have_posts()):
+                                    while($lastBlog->have_posts()):$lastBlog->the_post(); ?>
+                                        <div class="col-xs-12 col-sm-3">
+                                            <?php get_template_part('content','featured');?>
+                                        </div>
+                                    <?php endwhile;
+                                endif;
+                                wp_reset_postdata();
+                                ?>
+                            </div>
                         </div>
                         <div id="print" class="tab-pane fade">
-                            <h3>Print</h3>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                            <div class="row">
+                                <?php
+                                $args = array(
+                                    'type' => 'post',
+                                    'category_name'=>'print'
+                                );
+                                $lastBlog = new WP_Query($args);
+                                if($lastBlog->have_posts()):
+                                    while($lastBlog->have_posts()):$lastBlog->the_post(); ?>
+                                        <div class="col-xs-12 col-sm-3">
+                                            <?php get_template_part('content','featured');?>
+                                        </div>
+                                    <?php endwhile;
+                                endif;
+                                wp_reset_postdata();
+                                ?>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
-
+                <div class="col-md-12 btn-meet">
+                    <button type="button" class="btn btn-primary btn-work">View More Work <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
                 </div>
             </div>
         </div>

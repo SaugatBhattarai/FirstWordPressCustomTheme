@@ -67,4 +67,50 @@ add_theme_support( 'custom-header', $defaults );
 add_theme_support( 'post-thumbnails' );
 add_theme_support( 'post-formats', array( 'aside', 'image','video' ) );
 
+/*
+* ===================================================================
+*  Sidebar functions
+* ===================================================================
+*
+*/
+function practice_widget_setup() {
+    register_sidebar(
+        array(
+            'name'          => 'ABOUT US',
+            'id'            => 'sidebar-1',
+            'class'         => 'custom',
+            'description'   => 'Standard Sidebar',
+            'before_widget' => '<ul><li id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</li></ul>',
+            'before_title'  => '<h3 class="widget-title">',
+            'after_title'   => '</h3>',
+        )
+    );
+    register_sidebar(
+        array(
+            'name'          => 'RECENT POSTS',
+            'id'            => 'sidebar-2',
+            'class'         => 'custom',
+            'description'   => 'Standard Sidebar',
+            'before_widget' => '<ul><li id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</li></ul>',
+            'before_title'  => '<h3 class="widget-title">',
+            'after_title'   => '</h3>',
+        )
+    );
+    register_sidebar(
+        array(
+            'name'          => 'CONTACT US',
+            'id'            => 'sidebar-3',
+            'class'         => 'custom',
+            'description'   => 'Standard Sidebar',
+            'before_widget' => '<ul><li id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</li></ul>',
+            'before_title'  => '<h3 class="widget-title">',
+            'after_title'   => '</h3>',
+        )
+    );
+}
+add_action('widgets_init','practice_widget_setup');
+
 ?>

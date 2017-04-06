@@ -113,4 +113,19 @@ function practice_widget_setup() {
 }
 add_action('widgets_init','practice_widget_setup');
 
+/*
+* ===================================================================
+*  Widgets
+* ===================================================================
+*
+*/
+if(file_exists(dirname(__FILE__).'/inc/widgets.php')){
+    require_once dirname(__FILE__).'/inc/widgets.php';
+}
+
+// register Foo_Widget widget
+function register_foo_widget() {
+    register_widget( 'RecentPosts' );
+}
+add_action( 'widgets_init', 'register_foo_widget' );
 ?>

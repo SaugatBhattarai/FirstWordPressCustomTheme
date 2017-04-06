@@ -41,7 +41,7 @@ $query = array(
         </div>
         <div class="media-body">
             <h4 class="media-heading"> <?php the_title(sprintf('<h4 class="entry-title"> <a href="%s">',esc_url(get_permalink()),'</a></h4>'))?></h4>
-            <h6 class="media-category"><?php the_category(); ?></h6>
+            <h6 class="media-category"><?php the_category(' '); ?></h6>
         </div>
     </div>
 

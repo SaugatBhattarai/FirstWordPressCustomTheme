@@ -1,5 +1,6 @@
 .container-fluid-first{
     position:relative;
+    /*background: transparent !important;*/
 }
 .container-fluid{
     padding:0 !important;
@@ -9,13 +10,34 @@
     position:absolute;
     left:50%;
 }
-/*.col-xs-12{*/
-    /*padding-left:0px !important;*/
-    /*padding-right:0px !important;*/
-/*}*/
+.navbar-brand {
+    font-family: 'Nautilus Pompilius';
+    font-weight: bold;
+    font-style: italic;
+    font-size: 28px;
+}
+.navbar-nav{
+    font-family: 'Myriad Pro';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-brand {
+    color:#fff;
+}
+.navbar-default .navbar-nav > li > a{
+    color:#fff;
+}
+.form-control{
+}
 .col-head-image img{
-    margin-top:-20px;
-    width:100%;
+    margin-top: -72px;
+    width: 100%;
+    height: 650px;
 }
 .col-head-image{
     z-index: -1;
@@ -26,28 +48,46 @@
     width: 100%;
     opacity: 0.9;
 }
+.form-control{
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+.input-group-btn{
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+.btn-default-radius{
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+.input-group-btn{
+    margin-left:0px;
+}
 .art-text-abs{
     position: absolute;
     bottom:50%;
-    left:35%;
-    font-size:40px;
-    font-weight: bold;
+    left:32%;
     color:#fff;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-style: normal;
+    font-size:55px;
 }
+
 .btn-in-image{
     position: absolute;
     bottom:38%;
     left:44%;
-    background-color: #0DAB00;
+    background-color: #54d154;
     border:transparent;
     padding:10px 40px;
     border-radius: 20px;
 }
 .btn-in-image-scroll-down{
     position:absolute;
-    bottom: 5%;
+    bottom: 12%;
     left:46%;
-    background-color: #fff4ec;
+    background-color: #c1bfbf;
     opacity: 0.5;
     border:transparent;
     color:#000;
@@ -55,43 +95,60 @@
     border-radius:20px;
 }
 .what-we-do{
-    height:500px;
-    background-color:#f0f0ee;
+    height:560px;
 }
 .what-we-do-main{
     text-align: center;
+    font-family: 'Montserrat';
     font-weight: 400;
-    font-size:30px;
-    padding-bottom:5px;
+    font-size:22px;
+    padding-bottom:20px;
 }
 .what-we-do-detail{
     text-align: center;
+    font-family: 'Open Sans';
     font-weight: 300;
-    font-size:14px;
+    font-size:16px;
+    font-style: normal;
 }
 .what-we-do-top{
     margin-top:25px;
 }
 .image-detail-what{
-   margin-top:150px;
+   margin-top:160px;
    margin-left:0px !important;
     margin-right:0px !important;
 }
 
 .src-image{
-    width:160px;
-    height:90px;
+    width:150px;
+    height:140px;
+    border-radius:30px;
+}
+.happy-src-image{
+    width:200px;
+    height:100px;
     border-radius:30px;
 }
 .div-image-title{
-    font-weight: 600;
+    font-weight: 400;
     margin:20px 0;
     font-size:20px;
+}
+.div-image-detail{
+    font-size:15px;
+    font-weight: 300;
 }
 .btn-sm{
     margin-top:15px;
     padding:8px 20px;
     border-radius: 18px;
+    background-color: #54d154;
+    border-color: #54d154;
+    color: #fff;
+}
+.btn-primary:hover{
+    background-color: #54d154;
 }
 .col-img-justify{
     padding:0 100px;
@@ -108,24 +165,27 @@
     /*text-align: center;*/
 }
 .our-happy-client{
-    margin-top:-10px;
-    height: 440px;
+    margin-top:10px;
+    height: 500px;
+    text-align: center;
+    background-color:#f2f1f1;
 }
 .our-happy-client-main{
+    font-family: 'Montserrat';
     font-weight: 400;
-    font-size:30px;
+    font-size:22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .our-happy-client-sub{
-    font-size:14px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size:15px;
     padding-bottom:2px;
-}
-.our-happy-client{
-    text-align: center;
-    background-color:#f0f0ee;
 }
 .see-all-btn{
     margin-top:40px;
-    background-color: #fff4ec;
+    background-color: #dddcdc;
     padding:8px 30px;
     border:transparent;
     color:#000;
@@ -137,9 +197,7 @@
 .our-happy-client-row{
     margin-bottom:10px;
 }
-.our-happy-client-col{
-    margin-bottom:15px;
-}
+
 .person-profile{
     float:left;
     width: 125px;
@@ -154,7 +212,8 @@
 }
 .meet-the-team{
     height: 440px;
-    background-color: #0AFF87;
+    background-color: #54d154;
+    opacity: 0.9;
 }
 .section-top{
     padding-top:20px;
@@ -164,9 +223,11 @@
     font-size:30px;
     font-weight: 400;
     padding-bottom:5px;
+    color:#3fac3f;
 }
 .section-subhead{
     font-size:14px;
+    color:#3fac3f;
 }
 .profile-container{
     padding-top:40px;
@@ -213,12 +274,13 @@
 .meet-team-footer{
     height:120px;
     padding:20px;
-    background-color:#03b75d;
+    background-color:#3eba3e;
 }
 .btn-work{
     border-radius:20px;
-    background-color: #0AFF87;
+    background-color: #2b9b2b;
     border:transparent;
+    padding:10px 20px 10px 20px;
 }
 /*
  * ===================================================================
@@ -228,32 +290,65 @@
  */
 
 .our-latest-work{
-    background-color:#9FFFA0;
+    background-color:#54d154;
     height: 700px;
 }
 .latest-work-header-col{
+    margin-top:20px;
     text-align: center;
 }
+.latest-work-header{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size:22px;
+    padding-bottom:20px;
+}
+.latest-work-detail{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size:15px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{
+    color: #fff;
+    cursor: default;
+    background-color: #2b9b2b;
+    border: 1px solid #2b9b2b;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs li a{
+    color:#54d154;
+    background-color:#fff;
+    border-radius: 0px;
+}
+
 .nav-tabs{
     border-bottom: 0px;
     max-width:300px;
-    background-color: #fff;
-    padding-right:5px;
-    border-right: 1px solid #59FF00;
     border-radius: 20px;
     margin:0px auto;
 }
-.nav-tabs>li {
-    padding:5px;
-}
+
 .nav-tabs>li>a:hover {
-    background-color:#59FF00;
+    background-color:#2b9b2b;
 }
 .nav-tabs>li>a:active {
-    background-color:#59FF00;
+    background-color:#2b9b2b;
 }
 .margin-top-tabs{
     margin-top:20px;
+}
+
+.nav-tabs>li >a.photography {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.nav-tabs>li >a.print {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.nav > li > a {
+    padding: 6px 15px;
 }
 #print{
     padding:20px;
@@ -342,3 +437,21 @@ ul {
     margin-left: -20px;
     opacity: 0.8;
 }
+/*
+ * ===================================================================
+ * TESTIMONIALS
+ * ===================================================================
+ *
+ */
+.testimonials-heading{
+    text-align: center;
+    padding:20px 0 20px 0;
+}
+.testimonials-heading-title{
+    font-size:30px;
+    font-weight:400;
+}
+.testimonials-heading-details{
+    font-size: 14px;
+}
+

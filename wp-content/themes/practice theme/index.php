@@ -30,7 +30,7 @@
         <div class="row image-detail-what">
             <div class="col-xs-12 col-md-4 col-lg-4 col-sm-4 col-img-justify">
                 <div class="div-image-what">
-                    <img class="src-image" src="<?php echo get_template_directory_uri().'/images/wordpressin.jpg'?>" alt="div-camera">
+                    <img class="src-image" src="<?php echo get_template_directory_uri().'/images/what-we-1.png'?>" alt="div-camera">
                 </div>
                 <div class="div-image-title">
                     <span>Lorem Ipsum</span>
@@ -44,7 +44,7 @@
             </div>
             <div class="col-xs-12 col-md-4 col-lg-4 col-sm-4 col-img-justify">
                 <div class="div-image-what">
-                    <img class="src-image" src="<?php echo get_template_directory_uri().'/images/wordpressin.jpg'?>" alt="div-camera">
+                    <img class="src-image" src="<?php echo get_template_directory_uri().'/images/what-we-2.png'?>" alt="div-camera">
                 </div>
                 <div class="div-image-title">
                     <span>Lorem Ipsum</span>
@@ -58,7 +58,7 @@
             </div>
             <div class="col-xs-12 col-md-4 col-lg-4 col-sm-4 col-img-justify">
                 <div class="div-image-what">
-                    <img class="src-image" src="<?php echo get_template_directory_uri().'/images/wordpressin.jpg'?>" alt="div-camera">
+                    <img class="src-image" src="<?php echo get_template_directory_uri().'/images/what-we-3.png'?>" alt="div-camera">
                 </div>
                 <div class="div-image-title">
                     <span>Lorem Ipsum</span>
@@ -82,7 +82,7 @@
                 <div class="col-md-12">
                     <div class="latest-work-header-col">
                         <div class="latest-work-header">
-                            <h1>OUR LATEST WORK</h1>
+                            OUR LATEST WORK
                         </div>
                         <div class="latest-work-detail">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur
@@ -94,9 +94,9 @@
                 <div class="col-md-12">
                     <div class="margin-top-tabs">
                         <ul class="nav nav-tabs">
-                            <li class="active"><a data-toggle="tab" href="#photography">Photography</a></li>
-                            <li><a data-toggle="tab" href="#design">Design</a></li>
-                            <li><a data-toggle="tab" href="#print">Print</a></li>
+                            <li class="active"><a class="photography" data-toggle="tab" href="#photography">Photography</a></li>
+                            <li ><a class="design" data-toggle="tab" href="#design">Design</a></li>
+                            <li ><a class="print" data-toggle="tab" href="#print">Print</a></li>
                         </ul>
                     </div>
 
@@ -174,7 +174,13 @@
 
     </div>
 </div>
-<div class="container-fluid">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 testimonials-heading">
+            <div class="testimonials-heading-title">TESTIMONIALS</div>
+            <div class="testimonials-heading-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur</div>
+        </div>
+    </div>
     <div class="row testimonials">
         <div class="col-sm-12">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -232,29 +238,33 @@
     </div>
     <div class="container-fluid">
         <div class="row our-happy-client-row">
-            <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
-                <img class="src-image" src="<?php echo  get_template_directory_uri().'/images/google.png'?>" alt="google logo">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
+                    <img class="happy-src-image" src="<?php echo  get_template_directory_uri().'/images/google.png'?>" alt="google logo">
+                </div>
+                <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
+                    <img class="happy-src-image" src="<?php echo  get_template_directory_uri().'/images/yahoo.png'?>" alt="yahoo logo" >
+                </div>
+                <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
+                    <img class="src-image" src="<?php echo  get_template_directory_uri().'/images/microsoft.png'?>" alt="microsoft logo" >
+                </div>
+                <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
+                    <img class="happy-src-image" src="<?php echo  get_template_directory_uri().'/images/intel.png'?>" alt="intel logo" >
+                </div>
             </div>
-            <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
-                <img class="src-image" src="<?php echo  get_template_directory_uri().'/images/yahoo.png'?>" alt="yahoo logo" >
-            </div>
-            <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
-                <img class="src-image" src="<?php echo  get_template_directory_uri().'/images/microsoft.png'?>" alt="microsoft logo" >
-            </div>
-            <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
-                <img class="src-image" src="<?php echo  get_template_directory_uri().'/images/intel.png'?>" alt="intel logo" >
-            </div>
-            <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
-                <img class="src-image" src="<?php echo  get_template_directory_uri().'/images/qualcomm.png'?>" alt="qualcomm logo" >
-            </div>
-            <div class="col-md-3 col-sm-3 col-xm-3  our-happy-client-col">
-                <img class="src-image" src="<?php echo  get_template_directory_uri().'/images/cisco.png'?>" alt="cisco logo">
-            </div>
-            <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
-                <img class="src-image" src="<?php echo  get_template_directory_uri().'/images/apple.png'?>" alt="apple logo">
-            </div>
-            <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
-                <img class="src-image" src="<?php echo  get_template_directory_uri().'/images/asus.png'?>" alt="asus logo">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
+                    <img class="happy-src-image" src="<?php echo  get_template_directory_uri().'/images/qualcomm.png'?>" alt="qualcomm logo" >
+                </div>
+                <div class="col-md-3 col-sm-3 col-xm-3  our-happy-client-col">
+                    <img class="happy-src-image" src="<?php echo  get_template_directory_uri().'/images/cisco.png'?>" alt="cisco logo">
+                </div>
+                <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
+                    <img class="happy-src-image" src="<?php echo  get_template_directory_uri().'/images/apple.png'?>" alt="apple logo">
+                </div>
+                <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
+                    <img class="happy-src-image" src="<?php echo  get_template_directory_uri().'/images/asus.png'?>" alt="asus logo">
+                </div>
             </div>
         </div>
         <div class="see-all">

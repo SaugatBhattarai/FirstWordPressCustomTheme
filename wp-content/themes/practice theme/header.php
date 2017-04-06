@@ -41,10 +41,10 @@
                             <a class="navbar-brand" href="#">Switch</a>
                         </div>
                         <form class="navbar-form navbar-right search" role="search">
-                            <div class="input-group add-on">
-                                <input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
+                            <div class="input-group add-on search-input">
+                                <input class="form-control" placeholder="Search ..." name="srch-term" id="srch-term" type="text">
                                 <div class="input-group-btn">
-                                    <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                    <button class="btn btn-default btn-default-radius" type="submit"><i class="glyphicon glyphicon-search"></i></button>
                                 </div>
                             </div>
                         </form>

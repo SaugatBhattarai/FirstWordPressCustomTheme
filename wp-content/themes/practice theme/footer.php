@@ -3,7 +3,8 @@
                 <div class="row footer-footer">
                     <?php get_sidebar();?>
                 </div>
-                    <div class="row footer-as-seen-on">
+                <div class="row footer-as-seen-on">
+                    <div class="col-sm-12 overlay-original">
                         <div class="col-sm-12 col-md-12 as-seen-on-title">
                             <span>AS SEEN ON</span>
                         </div>
@@ -22,6 +23,9 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-sm-12 overlay-mask"></div>
+                </div>
+
                 <div class="col-sm-12">
                     <div class="footer-mast-head">
                         <span>made with &hearts; by Saugat:)</span>

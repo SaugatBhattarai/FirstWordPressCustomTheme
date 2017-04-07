@@ -421,9 +421,10 @@ ul {
  *
  */
 .footer-as-seen-on{
-    background-color:#222222;
+    position:relative;
     width:100%;
     padding:20px;
+    height: 170px;
 }
 .as-seen-on-title{
     text-align: center;
@@ -440,7 +441,7 @@ ul {
     color:white;
     text-align: center;
     padding:5px;
-    background-color: #4B2605;
+    background-color: #111111;
     margin-left: -20px;
     opacity: 0.8;
 }
@@ -473,6 +474,15 @@ ul {
     border:transparent;
     padding:5px;
     opacity: 0.8;
+}
+.overlay-mask{
+    position: absolute;
+    background-color:#222222;
+    width:100%;
+    height:170px;
+    opacity:0.5;
+    top: 0%;
+    left: 0%;
 }
 
     /*

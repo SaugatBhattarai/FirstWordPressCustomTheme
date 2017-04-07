@@ -37,7 +37,7 @@ $query = array(
         while( $lastBlog->have_posts() ): $lastBlog->the_post(); ?>
     <div class="media">
         <div class="media-left">
-            <img src=" <?php echo wp_get_attachment_url(get_post_thumbnail_id( get_the_ID() ), 'thumbnail' ); ?>" class="media-object" style="width:73px; height:73px">
+            <img src=" <?php echo wp_get_attachment_url(get_post_thumbnail_id( get_the_ID() ), 'thumbnail' ); ?>" class="media-object" style="width:55px; height:55px">
         </div>
         <div class="media-body">
             <h4 class="media-heading"> <?php the_title(sprintf('<h4 class="entry-title"> <a href="%s">',esc_url(get_permalink()),'</a></h4>'))?></h4>

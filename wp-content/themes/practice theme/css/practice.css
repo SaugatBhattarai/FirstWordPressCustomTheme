@@ -65,7 +65,7 @@
 }
 .art-text-abs{
     position: absolute;
-    bottom:50%;
+    bottom:55%;
     left:32%;
     color:#fff;
     font-family: 'Montserrat';
@@ -77,18 +77,18 @@
 .btn-in-image{
     position: absolute;
     bottom:38%;
-    left:44%;
+    left:45%;
     background-color: #54d154;
     border:transparent;
-    padding:10px 40px;
+    padding:12px 40px;
     border-radius: 20px;
 }
 .btn-in-image-scroll-down{
     position:absolute;
-    bottom: 12%;
-    left:46%;
+    bottom: 10%;
+    left:47%;
     background-color: #c1bfbf;
-    opacity: 0.5;
+    opacity: 0.4;
     border:transparent;
     color:#000;
     font-weight: bold;
@@ -96,6 +96,7 @@
 }
 .what-we-do{
     height:560px;
+    position: relative;
 }
 .what-we-do-main{
     text-align: center;
@@ -103,6 +104,14 @@
     font-weight: 400;
     font-size:22px;
     padding-bottom:20px;
+}
+.what-we-do-main:after{
+    content:' ';
+    display:block;
+    border:2px solid #000;
+    width:44px;
+    position: absolute;
+    left:49%;
 }
 .what-we-do-detail{
     text-align: center;
@@ -167,10 +176,18 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.our-happy-client-main:after{
+    content:' ';
+    display:block;
+    border:2px solid #000;
+    width:50px;
+    position: absolute;
+    left:48%;
+}
 .our-happy-client-sub{
-    font-family: 'Montserrat';
+    font-family: 'Open Sans Light';
     font-weight: 400;
-    font-size:15px;
+    font-size:16px;
     padding-bottom:2px;
 }
 .see-all-btn{
@@ -182,6 +199,7 @@
     border-radius:15px;
 }
 .our-happy-client-top{
+    position:relative;
     margin-bottom: 40px;
 }
 .our-happy-client-row{
@@ -213,11 +231,11 @@
     font-size:30px;
     font-weight: 400;
     padding-bottom:5px;
-    color:#3fac3f;
+    color:#000;
 }
 .section-subhead{
     font-size:14px;
-    color:#3fac3f;
+    color:#000;
 }
 .profile-container{
     padding-top:40px;
@@ -285,7 +303,9 @@
 }
 .latest-work-header-col{
     margin-top:20px;
+    margin-bottom:20px;
     text-align: center;
+    position: relative;
 }
 .latest-work-header{
     font-family: 'Montserrat';
@@ -293,10 +313,21 @@
     font-size:22px;
     padding-bottom:20px;
 }
+.latest-work-header:after{
+    content:' ';
+    display:block;
+    border:2px solid #000;
+    width:44px;
+    position: absolute;
+    left:48%;
+}
 .latest-work-detail{
     font-family: 'Montserrat';
     font-weight: 400;
-    font-size:15px;
+    font-size:16px;
+}
+.tab-content{
+    margin-top:20px;
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{
     color: #fff;
@@ -404,6 +435,9 @@ ul {
 .wpcf7-text{
     color:whitesmoke;
 }
+textarea {
+    resize: none;
+}
 /*
  * ===================================================================
  * Footer as seen as
@@ -413,16 +447,17 @@ ul {
 .footer-as-seen-on{
     position:relative;
     width:100%;
-    padding:20px;
+    padding:5px;
     height: 170px;
 }
 .as-seen-on-title{
     text-align: center;
     padding:10px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat Light';
     font-weight: bold;
     font-style: normal;
-    font-size:16px;
+    font-size:18px;
+    word-spacing: 5px;
 }
 .textwidget{
     text-align: justify;
@@ -470,7 +505,7 @@ ul {
     background-color:#222222;
     width:100%;
     height:170px;
-    opacity:0.5;
+    opacity:0.8;
     top: 0%;
     left: 0%;
 }
@@ -484,13 +519,24 @@ ul {
 .testimonials-heading{
     text-align: center;
     padding:20px 0 0px 0;
+    position: relative;
+}
+.testimonials-heading-title:after{
+    content:' ';
+    display:block;
+    border:2px solid #000;
+    width:44px;
+    position: absolute;
+    left:48%;
 }
 .testimonials-heading-title{
     font-size:22px;
     font-weight:300;
     font-family:"Montserrat Light";
 }
+
 .testimonials-heading-details{
+    padding-top:5px;
     font-family:"Montserrat Light";
     font-size: 16px;
     color: #cdc0c0;
@@ -526,4 +572,57 @@ ul {
 .carousel-control.left {
     background-image: none;
 }
-
+.testi-format{
+    position: relative;
+    left:15%;
+    top:5%;
+}
+.testi-img{
+    position: absolute;
+    width:55px;
+    height:55px;
+}
+.testi-content{
+    position: absolute;
+    left:35%;
+}
+.as-seen-on-logo img{
+    filter: grayscale(100%);
+}
+.hr-line-meet-the-team{
+    border-bottom: 3px solid black;
+    width: 60px;
+    position: absolute;
+    left: 48%;
+}
+.widget{
+    position:relative;
+}
+.widget-title:after{
+    content:' ';
+    display:block;
+    border:2px solid #FFFFFF;
+    width:40px;
+    /*margin-left:30px;*/
+    position:absolute;
+    left:45%;
+    margin-top:2px;
+}
+/*
+    * ===================================================================
+    * Main menu nav active
+    * ===================================================================
+    *
+    */
+.menu-main-navigation{
+    position: relative;
+}
+.current_page_item:after{
+    content:' ';
+    display:block;
+    border:4px solid #54d154;
+    width:44px;
+    position: absolute;
+    left:22%;
+    top:1%;
+}

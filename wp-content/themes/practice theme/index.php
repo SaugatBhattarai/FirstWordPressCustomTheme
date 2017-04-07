@@ -196,24 +196,45 @@
                         <img class="img-responsive carousel-image-inside" src="<?php echo get_template_directory_uri().'/images/whiteback.jpg'?>" alt="saugat bhattarai" width="1000" height="450">
                         <div class="carousel-caption">
                             <p>Beatiful flowers in Kolymbari, Crete.Beatiful flowers in Kolymbari, Crete.Beatiful flowers in Kolymbari, Crete.Crete.Beatiful flowers in Kolymbari, Crete.</p>
-                            <h3>Vivek Bhusal</h3>
-                            <h2>CFO of Wolfmatix</h2>
+                            <div class="testi-format">
+                                <div class="testi-img">
+                                    <img src="<?php echo  get_template_directory_uri().'/images/apple.png'?>" alt="Vivek Dai photo">
+                                </div>
+                                <div class="testi-content">
+                                    <h3>Mr. Vivek Bhusal</h3>
+                                    <h2>CFO of Wolfmatix Pvt. Ltd</h2>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="item">
                         <img class="img-responsive carousel-image-inside" src="<?php echo get_template_directory_uri().'/images/whiteback.jpg'?>" alt="saugat bhattarai" width="1000" height="450">
                         <div class="carousel-caption">
                             <p>Beatiful flowers in Kolymbari, Crete.Beatiful flowers in Kolymbari, Crete.Beatiful flowers in Kolymbari, Crete.Crete.Beatiful flowers in Kolymbari, Crete.</p>
-                            <h3>Nirajan Panthee</h3>
-                            <h2>CEO of Wolfmatrix</h2>
+                            <div class="testi-format">
+                                <div class="testi-img">
+                                    <img src="<?php echo  get_template_directory_uri().'/images/apple.png'?>" alt="Vivek Dai photo">
+                                </div>
+                                <div class="testi-content">
+                                    <h3>Mr. Suman Humagain</h3>
+                                    <h2>CTO of Wolfmatix Pvt Ltd</h2>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="item">
                         <img class="img-responsive carousel-image-inside" src="<?php echo get_template_directory_uri().'/images/whiteback.jpg'?>" alt="saugat bhattarai" width="1000" height="450">
                         <div class="carousel-caption">
                             <p>Beatiful flowers in Kolymbari, Crete. Beatiful flowers in Kolymbari, Crete. Beatiful flowers in Kolymbari, Crete.Crete.Beatiful flowers in Kolymbari, Crete.</p>
-                            <h3>Suman Humagain</h3>
-                            <h2>CTO of Wolfmatrix</h2>
+                            <div class="testi-format">
+                                <div class="testi-img">
+                                    <img src="<?php echo  get_template_directory_uri().'/images/apple.png'?>" alt="Vivek Dai photo">
+                                </div>
+                                <div class="testi-content">
+                                    <h3>Mr. Nirajan Panthee</h3>
+                                    <h2>CEO of Wolfmatix Pvt. Ltd</h2>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -279,6 +300,7 @@
     <div class="section-top">
         <div class="section-head">
             <span>MEET THE TEAM</span>
+            <div class="hr-line-meet-the-team"></div>
         </div>
         <div class="section-subhead">
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur saugat</span>

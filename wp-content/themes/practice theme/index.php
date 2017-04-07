@@ -262,7 +262,7 @@
     </div>
     <div class="container-fluid">
         <div class="row our-happy-client-row">
-            <div class="row">
+            <div class="row our-happy-client-inside">
                 <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
                     <img class="happy-src-image" src="<?php echo  get_template_directory_uri().'/images/google.png'?>" alt="google logo">
                 </div>
@@ -270,13 +270,13 @@
                     <img class="happy-src-image" src="<?php echo  get_template_directory_uri().'/images/yahoo.png'?>" alt="yahoo logo" >
                 </div>
                 <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
-                    <img class="src-image" src="<?php echo  get_template_directory_uri().'/images/microsoft.png'?>" alt="microsoft logo" >
+                    <img class="happy-src-image" src="<?php echo  get_template_directory_uri().'/images/microsoft.png'?>" alt="microsoft logo" >
                 </div>
                 <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
                     <img class="happy-src-image" src="<?php echo  get_template_directory_uri().'/images/intel.png'?>" alt="intel logo" >
                 </div>
             </div>
-            <div class="row">
+            <div class="row our-happy-client-inside">
                 <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
                     <img class="happy-src-image" src="<?php echo  get_template_directory_uri().'/images/qualcomm.png'?>" alt="qualcomm logo" >
                 </div>

@@ -409,7 +409,7 @@
 .media-category{
     margin-top:-5px;
     color: whitesmoke;
-    background-color: red;
+    /*background-color: red;*/
     max-width: 90px;
     border-radius: 5px;
     padding-left: 20px;

@@ -32,16 +32,41 @@ $query = array(
                 'type' => 'post',
                 'posts_per_page' => 5,
             );
+    function bgColor($category){
+       return "red";
+    }
     $lastBlog = new WP_Query($query);
     if ( $lastBlog->have_posts() ):
         while( $lastBlog->have_posts() ): $lastBlog->the_post(); ?>
+         <?php
+            foreach((get_the_category()) as $category) {
+                if( $category->cat_ID == 12){
+                    $bgColor = "blue";
+                }
+                else if( $category->cat_ID == 13){
+                    $bgColor = "red";
+                }
+                else if( $category->cat_ID == 11){
+                    $bgColor = "aqua";
+                }
+                else if( $category->cat_ID == 14){
+                    $bgColor = "purple";
+                }
+                else if( $category->cat_ID == 1){
+                    $bgColor = "smokewhite";
+                }
+                else{
+                    $bgColor = "white";
+                }
+            }
+            ?>
     <div class="media">
         <div class="media-left">
             <img src=" <?php echo wp_get_attachment_url(get_post_thumbnail_id( get_the_ID() ), 'thumbnail' ); ?>" class="media-object" style="width:55px; height:55px">
         </div>
         <div class="media-body">
             <h4 class="media-heading"> <?php the_title(sprintf('<h4 class="entry-title"> <a href="%s">',esc_url(get_permalink()),'</a></h4>'))?></h4>
-            <h6 class="media-category"><?php the_category(' '); ?></h6>
+            <h6 class="media-category" style=background-color:<?php echo $bgColor; ?>><?php the_category(' '); ?></h6>
         </div>
     </div>
 

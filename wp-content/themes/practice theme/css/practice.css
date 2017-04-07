@@ -154,16 +154,6 @@
     padding:0 100px;
     text-align: center;
 }
-.testimonials{
-    height: 460px;
-}
-.carousel-display-size{
-    /*width:100%;*/
-    /*height:100%;*/
-}
-.carousel-image-inside{
-    /*text-align: center;*/
-}
 .our-happy-client{
     margin-top:10px;
     height: 500px;
@@ -493,13 +483,47 @@ ul {
      */
 .testimonials-heading{
     text-align: center;
-    padding:20px 0 20px 0;
+    padding:20px 0 0px 0;
 }
 .testimonials-heading-title{
-    font-size:30px;
-    font-weight:400;
+    font-size:22px;
+    font-weight:300;
+    font-family:"Montserrat Light";
 }
 .testimonials-heading-details{
-    font-size: 14px;
+    font-family:"Montserrat Light";
+    font-size: 16px;
+    color: #cdc0c0;
+}
+.testimonials{
+    height: 300px;
+}
+.carousel-caption{
+    color:#000;
+    max-width:500px;
+    left: 28%;
+    top: 20%;
+    text-align: center;
+    text-shadow: none;
+}
+.carousel-caption p{
+    font-family:"Montserrat";
+    font-size:16px;
+}
+.carousel-caption h3{
+    font-family:"Montserrat";
+    font-size:18px;
+    font-weight: 700;
+}
+.carousel-caption h2{
+    font-family:"Montserrat";
+    font-size:18px;
+    color: #cdc0c0;
+}
+.carousel-control.right {
+    background-image: none;
+}
+.carousel-control.left {
+    background-image: none;
 }
 

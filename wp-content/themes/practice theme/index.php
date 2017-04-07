@@ -193,24 +193,27 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner carousel-display-size" role="listbox">
                     <div class="item active">
-                        <img class="img-responsive carousel-image-inside" src="<?php echo get_template_directory_uri().'/images/c1.jpg'?>" alt="saugat bhattarai" width="1000" height="450">
+                        <img class="img-responsive carousel-image-inside" src="<?php echo get_template_directory_uri().'/images/whiteback.jpg'?>" alt="saugat bhattarai" width="1000" height="450">
                         <div class="carousel-caption">
-                            <h3>Saugat Bhattarai</h3>
-                            <p>Beatiful flowers in Kolymbari, Crete.</p>
+                            <p>Beatiful flowers in Kolymbari, Crete.Beatiful flowers in Kolymbari, Crete.Beatiful flowers in Kolymbari, Crete.Crete.Beatiful flowers in Kolymbari, Crete.</p>
+                            <h3>Vivek Bhusal</h3>
+                            <h2>CFO of Wolfmatix</h2>
                         </div>
                     </div>
                     <div class="item">
-                        <img class="img-responsive carousel-image-inside" src="<?php echo get_template_directory_uri().'/images/c3.jpg'?>" alt="saugat bhattarai" width="1000" height="450">
+                        <img class="img-responsive carousel-image-inside" src="<?php echo get_template_directory_uri().'/images/whiteback.jpg'?>" alt="saugat bhattarai" width="1000" height="450">
                         <div class="carousel-caption">
-                            <h3>Saugat Bhattarai2</h3>
-                            <p>Beatiful flowers in Kolymbari, Crete.</p>
+                            <p>Beatiful flowers in Kolymbari, Crete.Beatiful flowers in Kolymbari, Crete.Beatiful flowers in Kolymbari, Crete.Crete.Beatiful flowers in Kolymbari, Crete.</p>
+                            <h3>Nirajan Panthee</h3>
+                            <h2>CEO of Wolfmatrix</h2>
                         </div>
                     </div>
                     <div class="item">
-                        <img class="img-responsive carousel-image-inside" src="<?php echo get_template_directory_uri().'/images/c4.jpg'?>" alt="saugat bhattarai" width="1000" height="450">
+                        <img class="img-responsive carousel-image-inside" src="<?php echo get_template_directory_uri().'/images/whiteback.jpg'?>" alt="saugat bhattarai" width="1000" height="450">
                         <div class="carousel-caption">
-                            <h3>Saugat Bhattarai3</h3>
-                            <p>Beatiful flowers in Kolymbari, Crete.</p>
+                            <p>Beatiful flowers in Kolymbari, Crete. Beatiful flowers in Kolymbari, Crete. Beatiful flowers in Kolymbari, Crete.Crete.Beatiful flowers in Kolymbari, Crete.</p>
+                            <h3>Suman Humagain</h3>
+                            <h2>CTO of Wolfmatrix</h2>
                         </div>
                     </div>
                 </div>

@@ -52,7 +52,7 @@ add_theme_support( 'custom-background', $args );
 $defaults = array(
     'default-image'          => get_template_directory_uri() . '/images/imageheader.jpg',
     'width'                  => '',
-    'height'                 => '',
+    'height'                 => '800',
     'flex-height'            => true,
     'flex-width'             => true,
     'uploads'                => true,

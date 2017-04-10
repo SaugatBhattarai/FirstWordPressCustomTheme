@@ -79,7 +79,7 @@
     <div class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="latest-work-header-col">
                         <div class="latest-work-header">
                             OUR LATEST WORK
@@ -112,7 +112,7 @@
                                 $lastBlog = new WP_Query($args);
                                 if($lastBlog->have_posts()):
                                     while($lastBlog->have_posts()):$lastBlog->the_post(); ?>
-                                        <div class="col-xs-12 col-md-3">
+                                        <div class="col-xs-4 col-sm-3 col-md-3">
                                             <?php get_template_part('content','featured');?>
                                         </div>
                                     <?php endwhile;
@@ -132,7 +132,7 @@
                                 $lastBlog = new WP_Query($args);
                                 if($lastBlog->have_posts()):
                                     while($lastBlog->have_posts()):$lastBlog->the_post(); ?>
-                                        <div class="col-xs-12 col-sm-3">
+                                        <div class="col-xs-4 col-sm-3 col-md-3">
                                             <?php get_template_part('content','featured');?>
                                         </div>
                                     <?php endwhile;
@@ -152,7 +152,7 @@
                                 $lastBlog = new WP_Query($args);
                                 if($lastBlog->have_posts()):
                                     while($lastBlog->have_posts()):$lastBlog->the_post(); ?>
-                                        <div class="col-xs-12 col-sm-3">
+                                        <div class="col-xs-4 col-sm-3 col-md-3">
                                             <?php get_template_part('content','featured');?>
                                         </div>
                                     <?php endwhile;
@@ -266,30 +266,30 @@
     <div class="container-fluid">
         <div class="row our-happy-client-row">
             <div class="row our-happy-client-inside">
-                <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
+                <div class="col-xs-12 col-sm-3 col-md-3 our-happy-client-col">
                     <img class="happy-src-image" src="<?php echo  get_template_directory_uri().'/images/google.png'?>" alt="google logo">
                 </div>
-                <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
+                <div class="col-xs-12 col-sm-3 col-md-3 our-happy-client-col">
                     <img class="happy-src-image" src="<?php echo  get_template_directory_uri().'/images/yahoo.png'?>" alt="yahoo logo" >
                 </div>
-                <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
+                <div class="col-xs-12 col-sm-3 col-md-3 our-happy-client-col">
                     <img class="happy-src-image" src="<?php echo  get_template_directory_uri().'/images/microsoft.png'?>" alt="microsoft logo" >
                 </div>
-                <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
+                <div class="col-xs-12 col-sm-3 col-md-3 our-happy-client-col">
                     <img class="happy-src-image" src="<?php echo  get_template_directory_uri().'/images/intel.png'?>" alt="intel logo" >
                 </div>
             </div>
             <div class="row our-happy-client-inside">
-                <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
+                <div class="col-xs-12 col-sm-3 col-md-3 our-happy-client-col">
                     <img class="happy-src-image" src="<?php echo  get_template_directory_uri().'/images/qualcomm.png'?>" alt="qualcomm logo" >
                 </div>
-                <div class="col-md-3 col-sm-3 col-xm-3  our-happy-client-col">
+                <div class="col-xs-12 col-sm-3 col-md-3  our-happy-client-col">
                     <img class="happy-src-image" src="<?php echo  get_template_directory_uri().'/images/cisco.png'?>" alt="cisco logo">
                 </div>
-                <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
+                <div class="col-xs-12 col-sm-3 col-md-3 our-happy-client-col">
                     <img class="happy-src-image" src="<?php echo  get_template_directory_uri().'/images/apple.png'?>" alt="apple logo">
                 </div>
-                <div class="col-md-3 col-sm-3 col-xm-3 our-happy-client-col">
+                <div class="col-xs-12 col-sm-3 col-md-3 our-happy-client-col">
                     <img class="happy-src-image" src="<?php echo  get_template_directory_uri().'/images/asus.png'?>" alt="asus logo">
                 </div>
             </div>
@@ -310,9 +310,8 @@
         </div>
     </div>
     <div class="container-fluid">
-        <div class="container">
-            <div class="row profile-container">
-                <div class="col-md-12 person-super">
+            <div class="profile-container">
+                <div class="person-super">
                     <div class="person">
                         <img class="img-circle person-profile" src="<?php echo  get_template_directory_uri().'/images/saugat.jpg'?>" alt="Saugat your pp">
                         <div class="person-line"></div>
@@ -375,7 +374,6 @@
                     </div>
                 </div>
             </div>
-        </div>
     </div>
 </section>
 <section class="meet-team-footer">

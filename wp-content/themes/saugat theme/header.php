@@ -63,14 +63,3 @@
 </header>
 
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
-<style type="text/css">
-    font-weight:
-</style>
-</body>
-</html>

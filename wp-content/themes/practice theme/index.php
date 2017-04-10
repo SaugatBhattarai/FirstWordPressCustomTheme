@@ -6,8 +6,8 @@
                 <img src="<?php echo get_template_directory_uri().'/images/imageheader.jpg'?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width;?>" />
                 <div class="middle-content">
                     <span class="art-text-abs"> Art is Eternal Happiness</span>
-                    <button type="button" class="btn btn-primary btn-lg btn-in-image">WORK WITH US </button>
-                    <button type="button" class="btn btn-primary btn-lg btn-in-image-scroll-down"> Scroll down <i class="fa fa-arrow-down" aria-hidden="true"></i></button>
+                    <a href='#what-we-do'><button type="button" class="btn btn-primary btn-lg btn-in-image">WORK WITH US</button></a>
+                    <a href='#what-we-do'><button type="button" class="btn btn-primary btn-lg btn-in-image-scroll-down"> Scroll down <i class="fa fa-arrow-down" aria-hidden="true"></i></button></a>
                 </div>
             </div>
         </div>
@@ -16,8 +16,8 @@
 
 <!--What we do section-->
 <div class="container-fluid">
-    <div class="row what-we-do">
-        <div class="col-xs-12">
+    <div class="row">
+        <div class="col-xs-12" id="what-we-do">
             <div class="what-we-do-top">
                 <div class="what-we-do-main">
                     <span>WHAT WE DO</span>
@@ -106,6 +106,7 @@
                                 <?php
                                 $args = array(
                                     'type' => 'post',
+                                    'posts_per_page' => 8,
                                     'category_name'=>'photography'
                                 );
                                 $lastBlog = new WP_Query($args);
@@ -125,6 +126,7 @@
                                 <?php
                                 $args = array(
                                     'type' => 'post',
+                                    'posts_per_page' => 8,
                                     'category_name'=>'design'
                                 );
                                 $lastBlog = new WP_Query($args);
@@ -144,6 +146,7 @@
                                 <?php
                                 $args = array(
                                     'type' => 'post',
+                                    'posts_per_page' => 8,
                                     'category_name'=>'print'
                                 );
                                 $lastBlog = new WP_Query($args);
@@ -195,14 +198,14 @@
                     <div class="item active">
                         <img class="img-responsive carousel-image-inside" src="<?php echo get_template_directory_uri().'/images/whiteback.jpg'?>" alt="saugat bhattarai" width="1000" height="450">
                         <div class="carousel-caption">
-                            <p>Beatiful flowers in Kolymbari, Crete.Beatiful flowers in Kolymbari, Crete.Beatiful flowers in Kolymbari, Crete.Crete.Beatiful flowers in Kolymbari, Crete.</p>
+                            <p>Beatiful flowers in Kolymbari, Crete.Beatiful flowers in Kolymbari, Crete.Beatiful flowers in Kolymbari, Crete.Crete.Beatiful flowers in Kolymbari, Crete. Crete.Crete.Beatiful flowers in Kolymbari, Crete.</p>
                             <div class="testi-format">
                                 <div class="testi-img">
                                     <img src="<?php echo  get_template_directory_uri().'/images/apple.png'?>" alt="Vivek Dai photo">
                                 </div>
                                 <div class="testi-content">
-                                    <h3>Mr. Vivek Bhusal</h3>
-                                    <h2>CFO of Wolfmatix Pvt. Ltd</h2>
+                                    <h3 class="desination-name">Mr. Vivek Bhusal</h3>
+                                    <h2 class="desination">CFO of Wolfmatix Pvt. Ltd</h2>
                                 </div>
                             </div>
                         </div>
@@ -210,7 +213,7 @@
                     <div class="item">
                         <img class="img-responsive carousel-image-inside" src="<?php echo get_template_directory_uri().'/images/whiteback.jpg'?>" alt="saugat bhattarai" width="1000" height="450">
                         <div class="carousel-caption">
-                            <p>Beatiful flowers in Kolymbari, Crete.Beatiful flowers in Kolymbari, Crete.Beatiful flowers in Kolymbari, Crete.Crete.Beatiful flowers in Kolymbari, Crete.</p>
+                            <p>Beatiful flowers in Kolymbari, Crete.Beatiful flowers in Kolymbari, Crete.Beatiful flowers in Kolymbari, Crete.Crete.Beatiful flowers in Kolymbari, Crete. Crete.Crete.Beatiful flowers in Kolymbari, Crete.</p>
                             <div class="testi-format">
                                 <div class="testi-img">
                                     <img src="<?php echo  get_template_directory_uri().'/images/apple.png'?>" alt="Vivek Dai photo">
@@ -225,7 +228,7 @@
                     <div class="item">
                         <img class="img-responsive carousel-image-inside" src="<?php echo get_template_directory_uri().'/images/whiteback.jpg'?>" alt="saugat bhattarai" width="1000" height="450">
                         <div class="carousel-caption">
-                            <p>Beatiful flowers in Kolymbari, Crete. Beatiful flowers in Kolymbari, Crete. Beatiful flowers in Kolymbari, Crete.Crete.Beatiful flowers in Kolymbari, Crete.</p>
+                            <p>Beatiful flowers in Kolymbari, Crete. Beatiful flowers in Kolymbari, Crete. Crete.Crete.Beatiful flowers in Kolymbari, Crete. Beatiful flowers in Kolymbari, Crete.Crete.Beatiful flowers in Kolymbari, Crete.</p>
                             <div class="testi-format">
                                 <div class="testi-img">
                                     <img src="<?php echo  get_template_directory_uri().'/images/apple.png'?>" alt="Vivek Dai photo">
